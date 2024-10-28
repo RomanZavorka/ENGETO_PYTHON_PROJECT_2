@@ -58,9 +58,11 @@ def guess_check():
 
 def cows(guessed_number, generated_number):
     cows = 0
+    index = 0
     for digit in guessed_number:
-        if digit in generated_number:
+        if digit in generated_number and digit != generated_number[index]:
             cows += 1
+        index += 1
     return cows
 
 def bulls(guessed_number, generated_number):
@@ -99,7 +101,7 @@ def attempts_sentence(attempt_count):
 def attempts_counting(generated_number):
     guess = guess_check()
     attempt_count = 1
-    if bulls(guess, generated_number) == 4 and cows(guess, generated_number) == 4:
+    if bulls(guess, generated_number) == 4 and cows(guess, generated_number) == 0:
         attempts_sentence (attempt_count)
 
     else:
