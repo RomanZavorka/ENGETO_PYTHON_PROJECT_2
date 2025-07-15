@@ -1,10 +1,9 @@
 
 """
-projekt_2.py: druhý projekt do Engeto Online Python Akademie
+project_2.py: second project for Engeto Online Python Academy course
 
 author: Roman Závorka
 email: romanz90zero@gmail.com
-discord: romanz90
 """
 
 import random as r
