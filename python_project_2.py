@@ -1,6 +1,6 @@
 
 """
-project_2.py: second project for Engeto Online Python Academy course
+project_2.py: Second project for Engeto Online Python Academy course
 
 author: Roman Závorka
 email: romanz90zero@gmail.com
